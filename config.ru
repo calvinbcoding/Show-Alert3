@@ -6,8 +6,12 @@ require 'sinatra/base'
 
  # controllers
 require './controllers/ApplicationController'
+require './controllers/BandController'
+require './controllers/ShowController'
 
  # models
+require './models/BandModel'
+require './models/ShowModel'
 
 
  # top-level routing -- specify which controllers are used when
