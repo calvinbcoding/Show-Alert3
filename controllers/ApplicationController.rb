@@ -9,6 +9,8 @@
 class ApplicationController < Sinatra::Base
 	require 'bundler'
 	Bundler.require()
+	#teaching the app where the templates are and how to find them
+	set :views, File.expand_path('../../views', __FILE__)
 
 	get '/' do 
 		"Welcome to your first Sinatra MVC App. HAHA just kidding this is the third runthrough of Show-Alert"
