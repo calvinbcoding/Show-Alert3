@@ -32,7 +32,7 @@ class ApplicationController < Sinatra::Base
 		## because the client is still waiting for a response from 
 		# this route
 
-  	binding.pry # STOPS EXECUTION, OPENS A REPL IN YOUR TERMINAL
+  	binding.pry # STOPS EXECUTION, OPENS A REPL IN YOUR TERMINAL -- type exit in terminal to exit pry and complete the execution of the route
 
   	# this response will get sent once you exit
  		"pry has finished -- here's some_text #{some_text}"
