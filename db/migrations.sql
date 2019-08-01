@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS show_stopper2;
-CREATE DATABASE show_stopper2;
+DROP DATABASE IF EXISTS show_stopper1;
+CREATE DATABASE show_stopper1;
 
-\c show_stopper2 
+\c show_stopper1 
 
 
 CREATE TABLE bands(
